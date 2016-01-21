@@ -1,0 +1,11 @@
+add_division 
+
+reset
+
+add_division
+add_integer_constant (5)
+add_integer_constant (0)
+type_check
+evaluate
+
+reset

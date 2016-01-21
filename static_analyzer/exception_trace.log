@@ -1,0 +1,335 @@
+
+static_analyzer: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+NEGATIVE            _invariant @3          num_of_expression:           
+<0000000005A81B28>                         Class invariant violated.     Fail
+-------------------------------------------------------------------------------
+NEGATIVE            _invariant                                          
+<0000000005A81B28>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+NEGATIVE            make_negative @4                                    
+<0000000005A81B28>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MODEL           out @3                                              
+<0000000005A69518>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    model_state @2         
+<0000000005A699A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    log_model_state @1     
+<0000000005A699A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @8             
+<0000000005A693F8>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<0000000005A675A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<0000000005A675A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @23                                            
+<0000000005A675A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<0000000005A675A8>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<0000000005A675A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+static_analyzer: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ADD                 _invariant @3          num_of_expression:           
+<0000000005F30B08>                         Class invariant violated.     Fail
+-------------------------------------------------------------------------------
+ADD                 _invariant                                          
+<0000000005F30B08>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ADD                 output                                              
+<0000000005F30B08>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ADD                 make_add @2                                         
+<0000000005F30B08>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MODEL           out @2                                              
+<0000000005F18518>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    model_state @2         
+<0000000005F189A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    log_model_state @1     
+<0000000005F189A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @8             
+<0000000005F183F8>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<0000000005F165A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<0000000005F165A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @23                                            
+<0000000005F165A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<0000000005F165A8>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<0000000005F165A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+static_analyzer: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ADD                 _invariant @3          num_of_expression:           
+<0000000006238B08>                         Class invariant violated.     Fail
+-------------------------------------------------------------------------------
+ADD                 _invariant                                          
+<0000000006238B08>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ADD                 output                                              
+<0000000006238B08>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ADD                 make_add @2                                         
+<0000000006238B08>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MODEL           out @2                                              
+<0000000006220518>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    model_state @2         
+<00000000062209A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    log_model_state @1     
+<00000000062209A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @8             
+<00000000062203F8>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<000000000621E5A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<000000000621E5A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @23                                            
+<000000000621E5A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<000000000621E5A8>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<000000000621E5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+static_analyzer: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ARRAYED_LIST        put_i_th @2            valid_key:                   
+<0000000005FA8CF8>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CONTROL             insert_expression @5                                
+<0000000005FA8CD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MODEL           out @4                                              
+<0000000005F90518>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    model_state @2         
+<0000000005F909A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    log_model_state @1     
+<0000000005F909A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @8             
+<0000000005F903F8>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<0000000005F8E5A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<0000000005F8E5A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @23                                            
+<0000000005F8E5A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<0000000005F8E5A8>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<0000000005F8E5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+
+static_analyzer: PANIC: caught signal #21 (Ctrl-Break) -- Giving up...
+
+static_analyzer: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ARRAY               automatic_grow @1      resizable:                   
+<0000000006144B08>  (From RESIZABLE)       Precondition violated.        Fail
+-------------------------------------------------------------------------------
+ETF_MODEL           out @10                                             
+<000000000612C518>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    model_state @2         
+<000000000612C9A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    log_model_state @1     
+<000000000612C9A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @8             
+<000000000612C3F8>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<000000000612A5A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<000000000612A5A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @23                                            
+<000000000612A5A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<000000000612A5A8>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<000000000612A5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected STRING_8 but got Void
+
+static_analyzer: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ARRAYED_LIST        at @1                  valid_key:                   
+<00000000060D29B8>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CONTROL             insert_integer @8                                   
+<00000000060D2928>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MODEL           out @13                                             
+<00000000060C7EE8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    model_state @2         
+<00000000060C8378>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_CMD_LINE_OUTPUT_HANDLER
+                    log_model_state @1     
+<00000000060C8378>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @8             
+<00000000060C7DC8>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<00000000060C65A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<00000000060C65A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @23                                            
+<00000000060C65A8>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<00000000060C65A8>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<00000000060C65A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------

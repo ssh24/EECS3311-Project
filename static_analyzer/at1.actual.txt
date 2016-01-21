@@ -1,0 +1,21 @@
+  System State: default model state (0)
+->reset
+  System State: default model state (1)
+->add_division
+  System State: default model state (2)
+->type_check
+  System State: default model state (3)
+->evaluate
+  System State: default model state (4)
+->reset
+  System State: default model state (5)
+->add_division
+  System State: default model state (6)
+->add_integer_constant(5)
+  System State: default model state (7)
+->add_integer_constant(2)
+  System State: default model state (8)
+->type_check
+  System State: default model state (9)
+->evaluate
+  System State: default model state (10)

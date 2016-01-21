@@ -1,0 +1,11 @@
+add_generalized_and
+start_set_enumeration 
+add_conjunction
+add_boolean_constant (true)
+add_boolean_constant (false)
+add_disjunction
+add_boolean_constant (true)
+add_boolean_constant (false)
+end_set_enumeration
+type_check
+evaluate 

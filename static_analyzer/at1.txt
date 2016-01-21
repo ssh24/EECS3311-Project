@@ -1,0 +1,13 @@
+reset
+
+add_division
+type_check
+evaluate
+
+reset
+
+add_division
+add_integer_constant (5)
+add_integer_constant (2)
+type_check
+evaluate 

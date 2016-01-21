@@ -1,0 +1,106 @@
+/*
+ * Class WEL_TEXT_RANGE
+ */
+
+#include "eif_macros.h"
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+static EIF_TYPE_INDEX gen_type0_1396 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type1_1396 [] = {0xFF11,236,0xFF12,1395,0xFFFF};
+static EIF_TYPE_INDEX gen_type2_1396 [] = {0xFF11,1395,0xFFFF};
+static EIF_TYPE_INDEX gen_type3_1396 [] = {0,0xFFFF};
+static EIF_TYPE_INDEX gen_type4_1396 [] = {0,0xFFFF};
+static EIF_TYPE_INDEX gen_type5_1396 [] = {0xFF11,1395,0xFFFF};
+static EIF_TYPE_INDEX gen_type6_1396 [] = {0xFF11,1395,0xFFFF};
+static EIF_TYPE_INDEX gen_type7_1396 [] = {0,0xFFFF};
+static EIF_TYPE_INDEX gen_type8_1396 [] = {0xFF11,13,0xFFFF};
+static EIF_TYPE_INDEX gen_type9_1396 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type10_1396 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type11_1396 [] = {0xFF11,14,0xFFFF};
+static EIF_TYPE_INDEX gen_type12_1396 [] = {0xFF11,1395,0xFFFF};
+static EIF_TYPE_INDEX gen_type13_1396 [] = {0xFF11,1430,0xFFFF};
+static EIF_TYPE_INDEX gen_type14_1396 [] = {0xFF11,1302,0xFFFF};
+
+
+static struct desc_info desc_1396[] = {
+	{(BODY_INDEX) -1, (BODY_INDEX) -1, INVALID_DTYPE, NULL},
+	{0, (BODY_INDEX)-1, 219, gen_type0_1396},
+	{1, (BODY_INDEX)-1, 236, gen_type1_1396},
+	{2, (BODY_INDEX)-1, 190, NULL},
+	{3, (BODY_INDEX)-1, 190, NULL},
+	{20686, (BODY_INDEX)-1, 190, NULL},
+	{5, (BODY_INDEX)-1, 190, NULL},
+	{6, (BODY_INDEX)-1, 190, NULL},
+	{7, (BODY_INDEX)-1, 190, NULL},
+	{8, (BODY_INDEX)-1, 190, NULL},
+	{9, (BODY_INDEX)-1, 190, NULL},
+	{10, (BODY_INDEX)-1, 1395, gen_type2_1396},
+	{20685, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{12, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{13, (BODY_INDEX)-1, 0, gen_type3_1396},
+	{14, (BODY_INDEX)-1, 0, gen_type4_1396},
+	{15, (BODY_INDEX)-1, 1395, gen_type5_1396},
+	{16, (BODY_INDEX)-1, 1395, gen_type6_1396},
+	{17, (BODY_INDEX)-1, 0, gen_type7_1396},
+	{18, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{19, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20, (BODY_INDEX)-1, 13, gen_type8_1396},
+	{21, (BODY_INDEX)-1, 219, gen_type9_1396},
+	{22, (BODY_INDEX)-1, 219, gen_type10_1396},
+	{23, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{24, (BODY_INDEX)-1, 14, gen_type11_1396},
+	{25, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{27, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{28, (BODY_INDEX)-1, 1395, NULL},
+	{29, (BODY_INDEX)-1, 214, NULL},
+	{30, (BODY_INDEX)-1, 1395, gen_type12_1396},
+	{20302, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{5928, (BODY_INDEX)-1, 190, NULL},
+	{20294, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20295, 24, 214, NULL},
+	{20296, 16, 190, NULL},
+	{20297, (BODY_INDEX)-1, 190, NULL},
+	{20298, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20299, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20300, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20301, (BODY_INDEX)-1, 205, NULL},
+	{20690, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20303, (BODY_INDEX)-1, 214, NULL},
+	{20684, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20687, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20688, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20689, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{21236, (BODY_INDEX)-1, 205, NULL},
+	{20691, (BODY_INDEX)-1, 214, NULL},
+	{20692, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20693, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20694, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20695, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{21232, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{21233, 0, 1430, gen_type13_1396},
+	{21234, 8, 1302, gen_type14_1396},
+	{21235, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{21237, (BODY_INDEX)-1, 205, NULL},
+	{21238, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+};
+
+extern void Init1396(void);
+void Init1396(void)
+{
+	IDSC(desc_1396, 0, 1395);
+	IDSC(desc_1396 + 1, 1, 1395);
+	IDSC(desc_1396 + 32, 206, 1395);
+	IDSC(desc_1396 + 34, 910, 1395);
+	IDSC(desc_1396 + 44, 931, 1395);
+	IDSC(desc_1396 + 54, 1116, 1395);
+}
+
+
+#ifdef __cplusplus
+}
+#endif

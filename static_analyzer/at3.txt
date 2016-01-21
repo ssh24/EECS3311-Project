@@ -1,0 +1,12 @@
+add_generalized_and
+end_set_enumeration 
+add_boolean_constant(true)
+type_check
+evaluate 
+
+reset
+
+start_set_enumeration 
+end_set_enumeration
+type_check
+evaluate 

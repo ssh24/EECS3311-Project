@@ -1,0 +1,197 @@
+/*
+ * Class KL_WINDOWS_FILE_SYSTEM
+ */
+
+#include "eif_macros.h"
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+static EIF_TYPE_INDEX gen_type0_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type1_1810 [] = {0xFF11,236,0xFF12,1809,0xFFFF};
+static EIF_TYPE_INDEX gen_type2_1810 [] = {0xFF11,1809,0xFFFF};
+static EIF_TYPE_INDEX gen_type3_1810 [] = {0,0xFFFF};
+static EIF_TYPE_INDEX gen_type4_1810 [] = {0,0xFFFF};
+static EIF_TYPE_INDEX gen_type5_1810 [] = {0xFF11,1809,0xFFFF};
+static EIF_TYPE_INDEX gen_type6_1810 [] = {0xFF11,1809,0xFFFF};
+static EIF_TYPE_INDEX gen_type7_1810 [] = {0,0xFFFF};
+static EIF_TYPE_INDEX gen_type8_1810 [] = {0xFF11,13,0xFFFF};
+static EIF_TYPE_INDEX gen_type9_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type10_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type11_1810 [] = {0xFF11,14,0xFFFF};
+static EIF_TYPE_INDEX gen_type12_1810 [] = {0xFF11,1809,0xFFFF};
+static EIF_TYPE_INDEX gen_type13_1810 [] = {0xFF11,917,0xFFFF};
+static EIF_TYPE_INDEX gen_type14_1810 [] = {0xFF11,1977,0,0xFFFF};
+static EIF_TYPE_INDEX gen_type15_1810 [] = {0xFF11,2009,205,0xFFFF};
+static EIF_TYPE_INDEX gen_type16_1810 [] = {0xFF11,2015,190,0xFFFF};
+static EIF_TYPE_INDEX gen_type17_1810 [] = {0xFF11,1977,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type18_1810 [] = {0xFF11,1977,0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type19_1810 [] = {0xFF11,1977,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type20_1810 [] = {0xFF11,1977,294,205,0xFFFF};
+static EIF_TYPE_INDEX gen_type21_1810 [] = {0xFF11,1786,0xFFFF};
+static EIF_TYPE_INDEX gen_type22_1810 [] = {0xFF11,1781,0xFFFF};
+static EIF_TYPE_INDEX gen_type23_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type24_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type25_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type26_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type27_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type28_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type29_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type30_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type31_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type32_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type33_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type34_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type35_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type36_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type37_1810 [] = {0xFF11,1960,0xFFFF};
+static EIF_TYPE_INDEX gen_type38_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type39_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type40_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type41_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type42_1810 [] = {0xFF11,1454,0xFFFF};
+static EIF_TYPE_INDEX gen_type43_1810 [] = {0xFF11,1209,0xFFFF};
+static EIF_TYPE_INDEX gen_type44_1810 [] = {0xFF11,1807,0xFFFF};
+static EIF_TYPE_INDEX gen_type45_1810 [] = {0xFF11,1809,0xFFFF};
+static EIF_TYPE_INDEX gen_type46_1810 [] = {0xFF11,1809,0xFFFF};
+static EIF_TYPE_INDEX gen_type47_1810 [] = {0xFF11,1808,0xFFFF};
+static EIF_TYPE_INDEX gen_type48_1810 [] = {0xFF11,1783,0xFFFF};
+static EIF_TYPE_INDEX gen_type49_1810 [] = {0xFF11,1776,0xFFFF};
+static EIF_TYPE_INDEX gen_type50_1810 [] = {0xFF11,219,0xFFFF};
+static EIF_TYPE_INDEX gen_type51_1810 [] = {0xFF11,160,0xFFFF};
+static EIF_TYPE_INDEX gen_type52_1810 [] = {0xFF11,219,0xFFFF};
+
+
+static struct desc_info desc_1810[] = {
+	{(BODY_INDEX) -1, (BODY_INDEX) -1, INVALID_DTYPE, NULL},
+	{0, (BODY_INDEX)-1, 219, gen_type0_1810},
+	{1, (BODY_INDEX)-1, 236, gen_type1_1810},
+	{2, (BODY_INDEX)-1, 190, NULL},
+	{3, (BODY_INDEX)-1, 190, NULL},
+	{4, (BODY_INDEX)-1, 190, NULL},
+	{5, (BODY_INDEX)-1, 190, NULL},
+	{6, (BODY_INDEX)-1, 190, NULL},
+	{7, (BODY_INDEX)-1, 190, NULL},
+	{8, (BODY_INDEX)-1, 190, NULL},
+	{9, (BODY_INDEX)-1, 190, NULL},
+	{10, (BODY_INDEX)-1, 1809, gen_type2_1810},
+	{11, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{12, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{13, (BODY_INDEX)-1, 0, gen_type3_1810},
+	{14, (BODY_INDEX)-1, 0, gen_type4_1810},
+	{15, (BODY_INDEX)-1, 1809, gen_type5_1810},
+	{16, (BODY_INDEX)-1, 1809, gen_type6_1810},
+	{17, (BODY_INDEX)-1, 0, gen_type7_1810},
+	{18, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{19, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{20, (BODY_INDEX)-1, 13, gen_type8_1810},
+	{21, (BODY_INDEX)-1, 219, gen_type9_1810},
+	{22, (BODY_INDEX)-1, 219, gen_type10_1810},
+	{23, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{24, (BODY_INDEX)-1, 14, gen_type11_1810},
+	{25, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{27, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{28, (BODY_INDEX)-1, 1809, NULL},
+	{29, (BODY_INDEX)-1, 214, NULL},
+	{30, (BODY_INDEX)-1, 1809, gen_type12_1810},
+	{22211, (BODY_INDEX)-1, 917, gen_type13_1810},
+	{19798, (BODY_INDEX)-1, 1977, gen_type14_1810},
+	{19799, (BODY_INDEX)-1, 2009, gen_type15_1810},
+	{19800, (BODY_INDEX)-1, 2015, gen_type16_1810},
+	{19801, (BODY_INDEX)-1, 1977, gen_type17_1810},
+	{19802, (BODY_INDEX)-1, 1977, gen_type18_1810},
+	{19803, (BODY_INDEX)-1, 1977, gen_type19_1810},
+	{19804, (BODY_INDEX)-1, 1977, gen_type20_1810},
+	{26226, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26172, (BODY_INDEX)-1, 190, NULL},
+	{26173, (BODY_INDEX)-1, 190, NULL},
+	{26174, (BODY_INDEX)-1, 190, NULL},
+	{26175, (BODY_INDEX)-1, 205, NULL},
+	{26176, (BODY_INDEX)-1, 205, NULL},
+	{26177, (BODY_INDEX)-1, 190, NULL},
+	{26178, (BODY_INDEX)-1, 190, NULL},
+	{26179, (BODY_INDEX)-1, 190, NULL},
+	{26180, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26181, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26182, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26183, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26228, (BODY_INDEX)-1, 1786, gen_type21_1810},
+	{26229, (BODY_INDEX)-1, 1781, gen_type22_1810},
+	{26230, (BODY_INDEX)-1, 219, gen_type23_1810},
+	{26184, (BODY_INDEX)-1, 190, NULL},
+	{26185, (BODY_INDEX)-1, 190, NULL},
+	{26186, (BODY_INDEX)-1, 190, NULL},
+	{26187, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26188, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26189, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26190, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26191, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26192, (BODY_INDEX)-1, 219, gen_type24_1810},
+	{26193, (BODY_INDEX)-1, 219, gen_type25_1810},
+	{26194, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26195, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26231, (BODY_INDEX)-1, 190, NULL},
+	{26232, (BODY_INDEX)-1, 190, NULL},
+	{26233, (BODY_INDEX)-1, 190, NULL},
+	{26234, (BODY_INDEX)-1, 190, NULL},
+	{26235, (BODY_INDEX)-1, 190, NULL},
+	{26166, (BODY_INDEX)-1, 190, NULL},
+	{26236, (BODY_INDEX)-1, 190, NULL},
+	{26237, (BODY_INDEX)-1, 190, NULL},
+	{26168, (BODY_INDEX)-1, 190, NULL},
+	{26238, (BODY_INDEX)-1, 219, gen_type26_1810},
+	{26239, (BODY_INDEX)-1, 219, gen_type27_1810},
+	{26240, (BODY_INDEX)-1, 219, gen_type28_1810},
+	{26241, (BODY_INDEX)-1, 219, gen_type29_1810},
+	{26169, (BODY_INDEX)-1, 219, gen_type30_1810},
+	{26242, (BODY_INDEX)-1, 219, gen_type31_1810},
+	{26243, (BODY_INDEX)-1, 219, gen_type32_1810},
+	{26244, (BODY_INDEX)-1, 219, gen_type33_1810},
+	{26245, (BODY_INDEX)-1, 219, gen_type34_1810},
+	{26246, (BODY_INDEX)-1, 219, gen_type35_1810},
+	{26247, (BODY_INDEX)-1, 219, gen_type36_1810},
+	{26248, (BODY_INDEX)-1, 1960, gen_type37_1810},
+	{26249, (BODY_INDEX)-1, 219, gen_type38_1810},
+	{26170, (BODY_INDEX)-1, 219, gen_type39_1810},
+	{26250, (BODY_INDEX)-1, 190, NULL},
+	{26251, (BODY_INDEX)-1, 219, gen_type40_1810},
+	{26252, (BODY_INDEX)-1, 219, gen_type41_1810},
+	{22192, (BODY_INDEX)-1, 1454, gen_type42_1810},
+	{16079, (BODY_INDEX)-1, 1209, gen_type43_1810},
+	{25858, (BODY_INDEX)-1, 1807, gen_type44_1810},
+	{25859, (BODY_INDEX)-1, 1809, gen_type45_1810},
+	{25860, (BODY_INDEX)-1, 1809, gen_type46_1810},
+	{25861, (BODY_INDEX)-1, 1808, gen_type47_1810},
+	{26196, (BODY_INDEX)-1, 1783, gen_type48_1810},
+	{26197, (BODY_INDEX)-1, 1776, gen_type49_1810},
+	{26198, (BODY_INDEX)-1, 219, gen_type50_1810},
+	{26199, (BODY_INDEX)-1, 160, gen_type51_1810},
+	{26227, (BODY_INDEX)-1, (EIF_TYPE_INDEX)-1, NULL},
+	{26253, (BODY_INDEX)-1, 190, NULL},
+	{26254, (BODY_INDEX)-1, 184, NULL},
+	{26255, 0, 184, NULL},
+	{26256, (BODY_INDEX)-1, 219, gen_type52_1810},
+};
+
+extern void Init1810(void);
+void Init1810(void)
+{
+	IDSC(desc_1810, 0, 1809);
+	IDSC(desc_1810 + 1, 1, 1809);
+	IDSC(desc_1810 + 32, 603, 1809);
+	IDSC(desc_1810 + 33, 533, 1809);
+	IDSC(desc_1810 + 40, 1279, 1809);
+	IDSC(desc_1810 + 94, 610, 1809);
+	IDSC(desc_1810 + 95, 1040, 1809);
+	IDSC(desc_1810 + 96, 753, 1809);
+	IDSC(desc_1810 + 100, 1038, 1809);
+	IDSC(desc_1810 + 104, 1037, 1809);
+}
+
+
+#ifdef __cplusplus
+}
+#endif

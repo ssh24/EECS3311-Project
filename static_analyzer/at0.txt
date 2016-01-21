@@ -1,0 +1,3 @@
+add_addition
+add_integer_constant(3)
+reset
